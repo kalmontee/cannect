@@ -2,8 +2,8 @@ import axios from 'axios';
 
 export default {
   // Authenticate if an user exist
-  authenticate: (username, password) => axios.get("/api/auth/" + username + password),
+  authenticate: (data) => axios.post("/api/auth/login", data),
 
   // Create a new user
-  createNewAccount: (query) => axios.post("/api/auth", query)
+  regrister: (query) => axios.post("/api/auth/login", query)
 }
