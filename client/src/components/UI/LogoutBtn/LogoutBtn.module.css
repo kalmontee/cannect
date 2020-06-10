@@ -1,0 +1,22 @@
+.LogoutBtn:hover,
+.LogoutBtn:active,
+.LogoutBtn .active {
+  border-radius: 10%;
+  border-bottom: 4px solid #40a4c8;
+  color: #40a4c8;
+}
+
+.LogoutBtn {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 16px 10px;
+}
+
+i {
+  color: #fff;
+  font-size: 20px;
+}
